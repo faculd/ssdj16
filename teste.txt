@@ -1,0 +1,9 @@
+echo "# ssdj16" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/faculd/ssdj16.git
+git config --global user.name "faculd"
+git config --global user.email "faculd092@gmail.com"
+git push -u origin main
